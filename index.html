@@ -1,0 +1,384 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Дикая природа — места, где дышится легко</title>
+  <meta name="description" content="Дикая природа: горы, леса, океан и пустыни. Истории о местах, которые возвращают нас к себе." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Прогресс прокрутки -->
+  <div class="scroll-progress" aria-hidden="true"><span id="scrollBar"></span></div>
+
+  <!-- ======= HEADER ======= -->
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <a href="#top" class="logo">
+        <svg class="logo-mark" viewBox="0 0 32 32" aria-hidden="true">
+          <path d="M16 3 L27 26 H5 Z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>
+          <path d="M16 12 L21.5 26 H10.5 Z" fill="currentColor" opacity=".28"/>
+          <circle cx="16" cy="8.6" r="1.5" fill="currentColor"/>
+        </svg>
+        <span class="logo-text">Дикая&nbsp;природа</span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Основная навигация">
+        <a href="#about" class="nav-link">О проекте</a>
+        <a href="#gallery" class="nav-link">Галерея</a>
+        <a href="#places" class="nav-link">Направления</a>
+        <a href="#numbers" class="nav-link">Цифры</a>
+        <a href="#join" class="nav-link btn-nav">Присоединиться</a>
+      </nav>
+
+      <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ======= HERO ======= -->
+    <section class="hero">
+      <div class="hero-media" id="heroMedia">
+        <img src="assets/mountain.jpg" alt="Горная долина с хвойным лесом на переднем плане" fetchpriority="high" />
+      </div>
+      <div class="hero-veil"></div>
+
+      <div class="container hero-content">
+        <p class="eyebrow reveal">Путешествия · Тишина · Вдох</p>
+        <h1 class="hero-title">
+          <span class="line reveal" style="--d:.05s">Места, где</span>
+          <span class="line reveal" style="--d:.15s"><em>дышится</em> легко</span>
+        </h1>
+        <p class="hero-sub reveal" style="--d:.3s">
+          Мы собираем истории о дикой природе — от снежных хребтов до тёплых
+          побережий. Небольшие маршруты, честные впечатления, никакого шума.
+        </p>
+        <div class="hero-actions reveal" style="--d:.45s">
+          <a href="#gallery" class="btn btn-primary" data-magnetic>
+            Смотреть галерею
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a href="#about" class="btn btn-ghost">Наша философия</a>
+        </div>
+      </div>
+
+      <div class="container hero-stats reveal" style="--d:.6s">
+        <div class="hero-stat">
+          <span class="hero-stat-num">41</span>
+          <span class="hero-stat-label">заповедное место</span>
+        </div>
+        <div class="hero-stat">
+          <span class="hero-stat-num">7</span>
+          <span class="hero-stat-label">климатических зон</span>
+        </div>
+        <div class="hero-stat">
+          <span class="hero-stat-num">0 ₽</span>
+          <span class="hero-stat-label">за вход в природу</span>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-cue" aria-label="Прокрутить вниз">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- ======= ABOUT ======= -->
+    <section class="about section" id="about">
+      <div class="container about-grid">
+        <div class="about-side">
+          <p class="eyebrow reveal">01 — Философия</p>
+          <h2 class="section-title reveal">Природа не&nbsp;спешит,<br><em>и мы тоже</em></h2>
+        </div>
+
+        <div class="about-body">
+          <p class="lead reveal">
+            Мы верим, что лучший способ увидеть мир — идти пешком и смотреть внимательно.
+            Без гонки за кадрами, без списка «успеть всё».
+          </p>
+          <p class="reveal">
+            Каждое место в этой коллекции выбрано за одно качество: там становится тише
+            внутри. Иногда это запах прогретой хвои, иногда — ветер с солёной водой,
+            иногда просто длинная тень от скалы в конце дня.
+          </p>
+
+          <ul class="features">
+            <li class="feature reveal" style="--d:.05s">
+              <span class="feature-ico">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.1 7-11a7 7 0 1 0-14 0c0 4.9 7 11 7 11Z" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="10" r="2.4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+              </span>
+              <div>
+                <h3>Точные координаты</h3>
+                <p>Проверенные тропы и подъезды, без «примерно там».</p>
+              </div>
+            </li>
+            <li class="feature reveal" style="--d:.15s">
+              <span class="feature-ico">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v2M12 19v2M3 12h2M19 12h2M5.6 5.6l1.4 1.4M17 17l1.4 1.4M18.4 5.6 17 7M7 17l-1.4 1.4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+              </span>
+              <div>
+                <h3>Сезонность</h3>
+                <p>Когда ехать, чтобы увидеть цветение, а не туман.</p>
+              </div>
+            </li>
+            <li class="feature reveal" style="--d:.25s">
+              <span class="feature-ico">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19c3-8 6-8 8-4s5 4 8-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M4 5h16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" opacity=".45"/></svg>
+              </span>
+              <div>
+                <h3>Бережный след</h3>
+                <p>Принципы, после которых место остаётся прежним.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee-track">
+          <span>горы</span><span>·</span><span>лес</span><span>·</span><span>океан</span><span>·</span>
+          <span>пустыня</span><span>·</span><span>водопады</span><span>·</span><span>озёра</span><span>·</span>
+          <span>горы</span><span>·</span><span>лес</span><span>·</span><span>океан</span><span>·</span>
+          <span>пустыня</span><span>·</span><span>водопады</span><span>·</span><span>озёра</span><span>·</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= GALLERY ======= -->
+    <section class="gallery section" id="gallery">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow reveal">02 — Коллекция</p>
+            <h2 class="section-title reveal">Шесть состояний<br><em>природы</em></h2>
+          </div>
+          <p class="section-note reveal">
+            Нажмите на кадр, чтобы открыть его крупно.
+          </p>
+        </div>
+
+        <div class="bento" id="galleryGrid">
+          <figure class="card reveal" data-full="assets/forest.jpg">
+            <img src="assets/forest.jpg" alt="Солнечный свет в старом лесу" loading="lazy" />
+            <figcaption>
+              <span class="tag">Лес</span>
+              <h3>Зелёный собор</h3>
+              <p>Свет проходит сквозь кроны и становится мягче.</p>
+            </figcaption>
+          </figure>
+
+          <figure class="card reveal" style="--d:.08s" data-full="assets/lake.jpg">
+            <img src="assets/lake.jpg" alt="Горное озеро в тумане" loading="lazy" />
+            <figcaption>
+              <span class="tag">Озеро</span>
+              <h3>Тихое зеркало</h3>
+              <p>Вода, в которой отражается всё, кроме времени.</p>
+            </figcaption>
+          </figure>
+
+          <figure class="card reveal" style="--d:.16s" data-full="assets/coast.jpg">
+            <img src="assets/coast.jpg" alt="Побережье океана на рассвете" loading="lazy" />
+            <figcaption>
+              <span class="tag">Океан</span>
+              <h3>Солёный свет</h3>
+              <p>Первые волны, пока пляж ещё ничей.</p>
+            </figcaption>
+          </figure>
+
+          <figure class="card reveal" style="--d:.24s" data-full="assets/desert.jpg">
+            <img src="assets/desert.jpg" alt="Дюны пустыни в вечернем свете" loading="lazy" />
+            <figcaption>
+              <span class="tag">Пустыня</span>
+              <h3>Красный ветер</h3>
+              <p>Песок меняет форму быстрее, чем мысль.</p>
+            </figcaption>
+          </figure>
+
+          <figure class="card reveal" style="--d:.32s" data-full="assets/waterfall.jpg">
+            <img src="assets/waterfall.jpg" alt="Водопад в скальном ущелье" loading="lazy" />
+            <figcaption>
+              <span class="tag">Вода</span>
+              <h3>Грохот ущелья</h3>
+              <p>Самый громкий звук, который успокаивает.</p>
+            </figcaption>
+          </figure>
+
+          <figure class="card reveal" style="--d:.4s" data-full="assets/mountain.jpg">
+            <img src="assets/mountain.jpg" alt="Снежные горы над долиной" loading="lazy" />
+            <figcaption>
+              <span class="tag">Горы</span>
+              <h3>Высота 2400</h3>
+              <p>Там, где заканчиваются тропы и начинается воздух.</p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= QUOTE ======= -->
+    <section class="quote-band">
+      <div class="quote-media" data-parallax="0.18">
+        <img src="assets/waterfall.jpg" alt="" aria-hidden="true" loading="lazy" />
+      </div>
+      <div class="container quote-inner">
+        <blockquote class="reveal">
+          «Мы не получаем землю в&nbsp;наследство от&nbsp;родителей —
+          мы берём её в&nbsp;долг у&nbsp;наших детей».
+        </blockquote>
+        <cite class="reveal" style="--d:.15s">— Старая индейская мудрость</cite>
+      </div>
+    </section>
+
+    <!-- ======= PLACES ======= -->
+    <section class="places section" id="places">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow reveal">03 — Направления</p>
+            <h2 class="section-title reveal">Куда поехать<br><em>в этом сезоне</em></h2>
+          </div>
+        </div>
+
+        <div class="places-list">
+          <a href="#gallery" class="place reveal">
+            <span class="place-idx">01</span>
+            <span class="place-main">
+              <span class="place-name">Хвойные хребты</span>
+              <span class="place-desc">Север, 4–6 дней пешком, ночёвки в палатках</span>
+            </span>
+            <span class="place-meta">Июль — Сентябрь</span>
+            <span class="place-arrow" aria-hidden="true">↗</span>
+          </a>
+
+          <a href="#gallery" class="place reveal" style="--d:.08s">
+            <span class="place-idx">02</span>
+            <span class="place-main">
+              <span class="place-name">Ледниковые озёра</span>
+              <span class="place-desc">Высокогорье, радиальные выходы без снаряжения</span>
+            </span>
+            <span class="place-meta">Июнь — Август</span>
+            <span class="place-arrow" aria-hidden="true">↗</span>
+          </a>
+
+          <a href="#gallery" class="place reveal" style="--d:.16s">
+            <span class="place-idx">03</span>
+            <span class="place-main">
+              <span class="place-name">Тёплое побережье</span>
+              <span class="place-desc">Океан, длинные пляжи, утренние приливы</span>
+            </span>
+            <span class="place-meta">Круглый год</span>
+            <span class="place-arrow" aria-hidden="true">↗</span>
+          </a>
+
+          <a href="#gallery" class="place reveal" style="--d:.24s">
+            <span class="place-idx">04</span>
+            <span class="place-main">
+              <span class="place-name">Дюны и каньоны</span>
+              <span class="place-desc">Сухой климат, рассветные выходы, звёздное небо</span>
+            </span>
+            <span class="place-meta">Октябрь — Апрель</span>
+            <span class="place-arrow" aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= NUMBERS ======= -->
+    <section class="numbers section" id="numbers">
+      <div class="container">
+        <p class="eyebrow reveal">04 — В цифрах</p>
+        <div class="numbers-grid">
+          <div class="num-item reveal">
+            <span class="num" data-count="41">0</span>
+            <p>локаций в&nbsp;коллекции</p>
+          </div>
+          <div class="num-item reveal" style="--d:.1s">
+            <span class="num" data-count="1280" data-suffix=" км">0</span>
+            <p>пройденных троп</p>
+          </div>
+          <div class="num-item reveal" style="--d:.2s">
+            <span class="num" data-count="96" data-suffix="%">0</span>
+            <p>маршрутов без&nbsp;мусора после нас</p>
+          </div>
+          <div class="num-item reveal" style="--d:.3s">
+            <span class="num" data-count="12" data-suffix=" лет">0</span>
+            <p>наблюдений за&nbsp;сезонами</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= JOIN ======= -->
+    <section class="join section" id="join">
+      <div class="container join-inner">
+        <div class="join-text">
+          <p class="eyebrow reveal">05 — Письма</p>
+          <h2 class="section-title reveal">Одно письмо<br><em>в месяц</em></h2>
+          <p class="reveal">
+            Маршрут, погода, лучшее время и один кадр. Без рекламы и без спешки.
+          </p>
+        </div>
+
+        <form class="join-form reveal" novalidate>
+          <label class="sr-only" for="email">Ваш e-mail</label>
+          <div class="field">
+            <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email" required />
+            <button type="submit" class="btn btn-primary" data-magnetic>
+              Подписаться
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </div>
+          <p class="form-note" id="formNote">Никакого спама. Отписаться можно в один клик.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ======= FOOTER ======= -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#top" class="logo">
+          <svg class="logo-mark" viewBox="0 0 32 32" aria-hidden="true">
+            <path d="M16 3 L27 26 H5 Z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>
+            <path d="M16 12 L21.5 26 H10.5 Z" fill="currentColor" opacity=".28"/>
+            <circle cx="16" cy="8.6" r="1.5" fill="currentColor"/>
+          </svg>
+          <span class="logo-text">Дикая&nbsp;природа</span>
+        </a>
+        <p>Проект о местах, которые стоит сохранить нетронутыми.</p>
+      </div>
+
+      <nav class="footer-nav" aria-label="Навигация в подвале">
+        <a href="#about">О проекте</a>
+        <a href="#gallery">Галерея</a>
+        <a href="#places">Направления</a>
+        <a href="#join">Письма</a>
+      </nav>
+
+      <p class="copyright">© <span id="year">2026</span> Дикая природа · Сделано с уважением к&nbsp;земле</p>
+    </div>
+  </footer>
+
+  <!-- ======= LIGHTBOX ======= -->
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Просмотр изображения">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Закрыть">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+    </button>
+    <figure>
+      <img src="" alt="" id="lightboxImg" />
+      <figcaption id="lightboxCap"></figcaption>
+    </figure>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
